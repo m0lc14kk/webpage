@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Oliwier Perzyński">
+		<meta name="description" content="Żarty">
+		<meta name="keywords" content="żarty">
+		<link rel="website icon" type="png" href="logo.png" />
+		<title> 
+			Oliwier Perzyński
+		</title>
+		<style>
+			hr {
+				width: 100%;
+			}
+
+			body {
+				background-color: #333333;
+			}
+			
+			h1 {
+				text-align: center;
+			}
+
+			td {
+				width: 700px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Ankieta społeczna</h1>
+		<hr>
+		<form enctype="text/plain" action="mailto:perzynski.oliwier@outlook.com" subject="formularz_dane" method="Post">
+			<table>
+				<tr>
+					<td>
+						1. Imie&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" maxlength="30" name="Imie:">
+					</td>
+					<td>
+						9. W jakie grasz gry?<br>
+						<input type="radio" value="CS:GO" name="gry"> CS:GO<br>
+						<input type="radio" value="League of Legends" name="gry"> League of Legends<br>
+						<input type="radio" value="Apex Legends" name="gry"> Apex Legends
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2. Nazwisko&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Nazwisko">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3. Drugie imie&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Drugie imie" size="21">
+					</td>
+					<td>
+						10. Z jakiego korzystasz środowiska?
+						<br>
+						<select name="środowisko">
+							<option value="VS Code">VS Code
+							<option value="Webstorm">Webstorm
+							<option value="Sublime Text">Sublime Text
+							<option value="Notepad++">Notepad++
+							<option value="Notatnik">Notatnik
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						4. Kod pocztowy: &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value="80-280" name="Kod pocztowy" size="21">
+					</td>
+					<td>
+						10. Jakie jest najgorsze środowisko?
+						<br>
+						<select name="najgorsze środowisko">
+							<option value="Brak" style="display: none;"> 
+							<option value="Webstorm">Webstorm
+							<option value="Sublime Text">Sublime Text
+							<option value="Notepad++">Notepad++
+							<option value="Notatnik">Notatnik
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						5. Miasto: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="Miasto" size="25">
+					</td>
+					<td>
+						12. Który język jest najlepszy?
+						<br>
+						<select name="ajlepszy język">
+							<option value="Python">Python
+							<option value="C++">C++
+							<option value="Java">Java
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						6. Coś o sobie:<br><br><textarea name="Coś o sobie", rows="6", cols="40"></textarea>
+					</td>
+					<td>
+						13. Jakie lubisz gry?
+						<br>
+						<input type="radio" value="Minecrft" name="gry2"> Minecraft
+						<input type="radio" value="Zelda" name="gry2"> Zelda
+						<input type="radio" value="Mortal Combat" name="gry2"> Mortal Combat
+						<input type="radio" value="DOOM" name="gry2"> DOOM
+					</td>
+				</tr>
+				<tr>
+					<td>
+						7. Jakie umiesz języki?
+						<br>
+						<input type="checkbox" value="TypeScript"> JavaScript<br>
+						<input type="checkbox" value="JavaScript"> TypeScript<br>
+						<input type="checkbox" value="Python"> Python
+					</td>
+					<td>
+						14. Jakie lubisz przedmioty?
+						<br>
+						<input type="radio" value="Polski" name="przedmioty"> Polski
+						<input type="radio" value="Matma" name="przedmioty"> Matma
+						<input type="radio" value="Angielski" name="przedmioty"> Angielski
+						<input type="radio" value="W-F" name="przedmioty"> W-F
+						<input type="radio" value="BHP" name="przedmioty"> BHP
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8. Jakiego języka chcesz się nauczyć?
+						<br>
+						<input type="checkbox"  value="C++"> C++ &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"  value="C"> C &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"  value="Java"> Java &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"  value="Go"> Go
+					</td>
+					<td>
+						15. Lubisz programować?
+						<br>
+						<input type="checkbox" value="Tak">Tak
+						<input type="checkbox" value="Może tak">Może tak
+						<input type="checkbox" value="Niezbyt">Niezbyt
+						<input type="checkbox" value="Nie">Nie
+						<input type="checkbox" value="Nie wiem">Nie wiem
+					</td>
+				</tr>
+			</table>
+			<center>
+				<input type="reset" value="Reset" style="height:20px; width:75px">
+				&nbsp;&nbsp;
+				<input type="submit" value="Sumbit" style="height:20px; width:75px">
+			</center>
+		</form>
+		<a href="index.html">powrót</a>
+	</body>
+</html>
